@@ -1,0 +1,12 @@
+header {
+
+    & nav {
+        display: flex;
+    }
+}
+
+header p{
+    padding-top: 89px;
+    padding-bottom: 12px;
+    font: var(--overline);
+}

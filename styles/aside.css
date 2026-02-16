@@ -1,0 +1,93 @@
+.question-item {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: repeat(2, auto);
+    padding-bottom: 36px;
+}
+
+.question-item :nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.questions-wrapper {
+    padding-top: 38px;
+}
+
+h2 {
+    font: var(--text-label-md);
+}
+
+form {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px
+}
+
+input[type='number'] {
+    background-color: #111012;
+    border: none;
+    width: 86px;
+    height: 54px;
+    margin-top: 8px;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font: var(--display-sm);
+
+}
+
+input[type='number'] :focus{
+    outline: none;
+    border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+
+}
+
+.number-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#check {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+
+aside form p {
+    font: var(--text-md);
+    color: var(--content-secundary);
+}
+
+aside label {
+    color: var(--content-primary);
+    font: var(--text-sm)
+}
+
+button {
+   margin-top: 36px;
+    width: 100%;
+    background-color: #24222E;
+    border: none;
+    border-radius: 8px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font: var(--text-md);
+    color: #fff;
+    cursor: pointer;
+}

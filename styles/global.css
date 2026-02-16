@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 :root {
-    /*Colors*/
+    /***************************Colors********************/
 
     /*Content*/
     --content-primary: #fff;
@@ -27,7 +28,7 @@
     --gradient-background: #D586E0 0%, #91A1FA 98.93%;
     --gradient-content: #C7C9CC 0%, #3D3D3D 100%;
 
-    /*Fonts*/
+    /********************Fonts***********************/
 
     /*SORA*/
     --display-lg: 800 4.5rem/130% "Sora", sans-serif;
@@ -45,6 +46,61 @@
 
     --text-label-md: bold 1.25rem/150% "Roboto Flex", sans-serif;
     --text-lg: bold 1rem/150% "Roboto Flex", sans-serif;
+
 }
 
 
+body {
+    display: flex;
+    align-items: center;
+    background-color: #030203;
+    background-image: url(../assets/bg.png);
+    color: #fff;
+}
+
+.home{
+    margin: auto;
+    padding: 76px 134px 153px 134px;
+
+}
+
+
+.chat-icon {
+    height: 20px;
+}
+
+
+
+h1 {
+    display: inline;
+    font: var(--display-lg);
+    color: var(--content-primary);
+    
+}
+
+.p-title{
+    font:var(--text-md);
+    color:var(--content-brand);
+}
+
+.p-subtitle{
+    font: var(--text-sm);
+    color: var(--content-secundary);
+}
+
+
+
+.title-logo {
+    font: var(--display-sm)
+}
+
+
+#app {
+    /*
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ */
+
+    display: flex;
+    gap: 108px;
+}
