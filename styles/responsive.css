@@ -1,0 +1,31 @@
+@media (max-width: 1140px) {
+
+    #app {
+        gap: 20px;
+    }
+
+    #app h1{
+        font: var(--display-md);
+    }
+    
+.container{
+   
+    padding: 52px 67px 76px 67px;
+
+}
+}
+
+@media (max-width: 782px) {
+    #app{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .container{
+        padding: 44px 35px 44px 35px;
+    }
+
+
+
+}
